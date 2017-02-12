@@ -112,8 +112,8 @@ public class Bank {
 	}
 	
 	public void printMoneyAndMoneyReserv() {
-		System.out.println("The ammount of money in the bank right now is: " + getMoney());
-		System.out.println("The ammount of bank reserv is: " + getMoneyReserv());
+		System.out.printf("The ammount of money in the bank right now is: %.2f", getMoney());
+		System.out.printf("%nThe ammount of bank reserv is: %.2f", getMoneyReserv());
 	}
 	
 	
